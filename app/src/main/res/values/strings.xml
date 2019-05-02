@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">YoutubeApp</string>
-    <string name="youtube_apikey">YoutubeApp</string>
-    <string name="googleplay_url">YoutubeApp</string>
+    <string name="youtube_apikey">AIzaSyA6g41cEElhdtBXjbhPjYshbS3j98lfs9E</string>
+    <string name="googleplay_url">https://play.google.com/store/apps/details?id=newfarmstudio.ru</string>
     <string name="banner_ad_id">YoutubeApp</string>
     <string name="interstitial_ad_id">YoutubeApp</string>
 

@@ -42,7 +42,7 @@ class ActivityHome : AppCompatActivity() {
             primaryDrawerItems.add(PrimaryDrawerItem()
                 .withName(name)
                 .withIdentifier(i)
-                .withSelectable(false))
+                .withSelectable(true))
         }
 
         val accountHeader = AccountHeaderBuilder()

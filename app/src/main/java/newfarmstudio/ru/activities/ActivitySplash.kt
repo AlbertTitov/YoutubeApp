@@ -20,7 +20,6 @@ class ActivitySplash : AppCompatActivity() {
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
-
         Loading(this).execute()
     }
 
@@ -42,8 +41,8 @@ class ActivitySplash : AppCompatActivity() {
             super.onPostExecute(result)
             val intent = Intent(mContext, ActivityHome::class.java)
             mContext.startActivity(intent)
+            (mContext as AppCompatActivity).overridePendingTransition(R.anim.open_next, R.anim.close_main)
         }
-
     }
 
     override fun onWindowFocusChanged(hasFocus: Boolean) {
